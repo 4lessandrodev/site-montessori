@@ -1,0 +1,23 @@
+.main-menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.main-menu a {
+  color: black;
+}
+/*
+.desktop-option {
+  display: none;
+  visibility: hidden;
+  background-color: blue;
+}
+
+.mobile-menu {
+  width: 100%;
+  text-align: right;
+} */

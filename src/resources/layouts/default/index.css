@@ -1,0 +1,22 @@
+.header {
+  grid-area: header;
+}
+
+.section {
+  grid-area: section;
+  background-color: cadetblue;
+  height: 120vh;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: darkkhaki;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header'
+    'section section section section'
+    'footer footer footer footer';
+}
