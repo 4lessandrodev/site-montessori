@@ -3,16 +3,16 @@ export default () => (
   <>
     <ul className='main-menu'>
       <li className='desktop-option'>
-        <a href='http://'>Menu</a>
+        <a href='http://'>Opção 1</a>
       </li>
       <li className='desktop-option'>
-        <a href='http://'>Menu h</a>
+        <a href='http://'>Opção 2</a>
       </li>
       <li className='desktop-option'>
-        <a href='http://'>Menu</a>
+        <a href='http://'>Opção 3</a>
       </li>
       <li className='mobile-menu'>
-        <a href='http://'>
+        <a href='http://' className='icon-mobile-menu'>
           <i className='material-icons'>view_module</i>
         </a>
       </li>

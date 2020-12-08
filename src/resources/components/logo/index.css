@@ -1,6 +1,4 @@
 .logo {
-    max-width: 90px;
-    min-width: 90px;
-    position: relative;
-    top: -10px;
+  max-width: 90px;
+  height: 70px;
 }
