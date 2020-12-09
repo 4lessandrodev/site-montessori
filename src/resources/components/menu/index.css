@@ -3,6 +3,7 @@
   list-style: none;
   width: 70%;
   justify-content: flex-end;
+  padding: 0 24px;
 }
 
 .desktop-option {
