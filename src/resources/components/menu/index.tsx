@@ -3,13 +3,19 @@ export default () => (
   <>
     <ul className='main-menu'>
       <li className='desktop-option'>
-        <a href='http://'>Opção 1</a>
+        <a href='http://'>Home</a>
       </li>
       <li className='desktop-option'>
-        <a href='http://'>Opção 2</a>
+        <a href='http://'>Institucional</a>
       </li>
       <li className='desktop-option'>
-        <a href='http://'>Opção 3</a>
+        <a href='http://'>Turmas</a>
+      </li>
+      <li className='desktop-option'>
+        <a href='http://'>BLog</a>
+      </li>
+      <li className='desktop-option'>
+        <a href='http://'>Contato</a>
       </li>
       <li className='mobile-menu'>
         <a href='http://' className='icon-mobile-menu'>

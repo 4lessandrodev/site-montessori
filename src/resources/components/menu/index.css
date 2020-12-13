@@ -4,6 +4,11 @@
   width: 70%;
   justify-content: flex-end;
   padding: 0 24px;
+  align-items: center;
+}
+
+.main-menu a {
+  text-decoration: none;
 }
 
 .desktop-option {
@@ -12,7 +17,7 @@
 }
 
 .icon-mobile-menu {
-  color: black;
+  color: var(--main-blue);
 }
 
 @media only screen and (min-width: 920px) {
@@ -23,9 +28,16 @@
   .desktop-option {
     display: inline-block;
     visibility: visible;
-    padding: 0 5%;
+    padding: 1% 2%;
   }
   .desktop-option a {
-    color: black;
+    color: var(--main-blue);
+    padding: 20px;
+    transition: all 0.4s ease;
+  }
+
+  .desktop-option:hover :last-child {
+    background-color: var(--main-blue);
+    color: var(--main-light);
   }
 }

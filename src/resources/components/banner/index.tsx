@@ -1,35 +1,22 @@
-import Carousel, { autoplayPlugin } from '@brainhubeu/react-carousel';
-import '@brainhubeu/react-carousel/lib/style.css';
+import './index.css';
+import { Button } from '@material-ui/core';
 
-export default () => {
-  return (
-    <div>
-      <Carousel
-        plugins={[
-          'infinite',
-          {
-            resolve: autoplayPlugin,
-            options: {
-              interval: 2000,
-            },
-          },
-        ]}
-        animationSpeed={1000}
-        value={1}
+export default () => (
+  <div className='banner'>
+    <div className='banner-button'>
+      <Button
+        className='button-call-to-action'
+        variant='outlined'
+        color='primary'
       >
-        <img
-          key='imagem-1'
-          style={{ width: '100%', height: '100%' }}
-          src='https://www.colegiocemp.com.br/wp-content/uploads/2019/06/DSC_0009.jpg'
-          alt='image'
-        />
-        <img
-          key='imagem-2'
-          style={{ width: '100%', height: '100%' }}
-          src='http://luciliadiniz.com/wp-content/uploads/2015/02/A-hora-do-recreio-cabo-de-forca.jpg'
-          alt='image'
-        />
-      </Carousel>
+        Matricule-se já
+      </Button>
     </div>
-  );
-};
+    <div className='banner-title'>
+      <h2 className='title'>
+        A harum commodi maxime ducimus quibusdam repudiandae enim earum, nam ut,
+        dolorem consectetur omnis pariatur.
+      </h2>
+    </div>
+  </div>
+);

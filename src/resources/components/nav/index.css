@@ -2,5 +2,7 @@
   display: flex;
   align-content: center;
   justify-content: space-between;
-  background-color: rgb(239, 236, 241);
+  background-color: var(--main-light);
+  box-shadow: 0px 15px 29px -10px rgba(0, 0, 0, 0.75);
+  margin-bottom: 5px;
 }

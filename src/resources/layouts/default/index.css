@@ -6,6 +6,8 @@
   grid-area: section;
   background-color: cadetblue;
   height: 120vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer {

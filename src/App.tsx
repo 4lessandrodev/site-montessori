@@ -1,4 +1,3 @@
-import './App.css';
 import Default from './resources/layouts/default';
 
 function App() {

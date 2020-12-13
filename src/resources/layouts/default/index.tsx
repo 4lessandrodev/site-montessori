@@ -1,6 +1,7 @@
 import './index.css';
 import Nav from '../../components/nav';
-import Carousel from '../../components/banner';
+import Carousel from '../../components/carousel';
+import Banner from '../../components/banner';
 
 export default () => (
   <>
@@ -17,6 +18,9 @@ export default () => (
           }}
         >
           <Carousel />
+        </article>
+        <article>
+          <Banner />
         </article>
         Main section
       </section>
