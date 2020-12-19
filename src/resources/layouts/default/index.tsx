@@ -4,6 +4,8 @@ import Carousel from '../../components/carousel';
 import Banner from '../../components/banner';
 import { Title } from '../../components/title';
 import { Paragraph } from '../../components/paragraph';
+import { Course } from '../../components/course';
+import Grid from '@material-ui/core/Grid';
 
 export default () => (
   <>
@@ -41,6 +43,12 @@ export default () => (
       </section>
       <section className='courses'>
         <Title title='Cursos Regulares'></Title>
+        <article className='courses-grid'>
+          <Course name='BIologia' image=''></Course>
+          <Course name='BIologia' image=''></Course>
+          <Course name='BIologia' image=''></Course>
+          <Course name='BIologia' image=''></Course>
+        </article>
       </section>
       <footer className='footer'>Footer</footer>
     </main>
