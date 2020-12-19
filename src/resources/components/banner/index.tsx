@@ -2,7 +2,7 @@ import './index.css';
 import { Button } from '@material-ui/core';
 
 export default () => (
-  <div className='banner'>
+  <div className='main-banner'>
     <div className='banner-button'>
       <Button
         className='button-call-to-action'
@@ -14,8 +14,7 @@ export default () => (
     </div>
     <div className='banner-title'>
       <h2 className='title'>
-        A harum commodi maxime ducimus quibusdam repudiandae enim earum, nam ut,
-        dolorem consectetur omnis pariatur.
+        Educação transformadora para um mundo em transformação.
       </h2>
     </div>
   </div>
