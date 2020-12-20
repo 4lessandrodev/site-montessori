@@ -5,7 +5,7 @@ import Banner from '../../components/banner';
 import { Title } from '../../components/title';
 import { Paragraph } from '../../components/paragraph';
 import { Course } from '../../components/course';
-import Grid from '@material-ui/core/Grid';
+import { Paper } from '../../components/paper';
 
 export default () => (
   <>
@@ -49,6 +49,9 @@ export default () => (
           <Course name='BIologia' image=''></Course>
           <Course name='BIologia' image=''></Course>
         </article>
+      </section>
+      <section className='blog'>
+        <Paper />
       </section>
       <footer className='footer'>Footer</footer>
     </main>

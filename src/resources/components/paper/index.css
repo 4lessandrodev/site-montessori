@@ -1,0 +1,77 @@
+.main {
+  display: flex;
+  height: 92%;
+  width: 100%;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5%;
+}
+.paper {
+  position: relative;
+  height: 88%;
+  width: 59%;
+  background: rgba(255, 255, 255, 0.9);
+  margin: -275px 0px;
+  left: 19%;
+  top: 40%;
+  box-shadow: 0px 0px 5px 0px #888;
+}
+.paper::before {
+  content: '';
+  position: fixed;
+  left: 45px;
+  height: 100%;
+  width: 2px;
+  background: rgba(255, 0, 0, 0.4);
+}
+.lines {
+  margin-top: 40px;
+  height: calc(100% - 40px);
+  width: 100%;
+  background-image: repeating-linear-gradient(
+    white 0px,
+    white 24px,
+    steelblue 25px
+  );
+}
+.text-paper {
+  position: relative;
+  max-width: 100%;
+  line-height: 25px;
+  font-family: 'Indie Flower';
+  overflow: hidden;
+  outline: none;
+  padding: 0 7%;
+}
+.holes {
+  position: absolute;
+  left: 10px;
+  height: 25px;
+  width: 25px;
+  background: var(--main-blue);
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 2px 0px #888;
+}
+.hole-top {
+  top: 10%;
+}
+.hole-middle {
+  top: 50%;
+}
+.hole-bottom {
+  bottom: 10%;
+}
+
+.blog-title {
+  font-size: 2rem;
+}
+.blog-image {
+  max-width: 80%;
+}
+
+.blog-text-resume {
+  padding: 0 10%;
+  font-family: 'Indie Flower';
+  font-size: 1.5rem;
+}
