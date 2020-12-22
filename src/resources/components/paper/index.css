@@ -10,11 +10,12 @@
 .paper {
   position: relative;
   height: 88%;
-  width: 59%;
+  width: 87%;
   background: rgba(255, 255, 255, 0.9);
   margin: -275px 0px;
-  left: 19%;
+  left: 2%;
   top: 40%;
+  padding: 5%;
   box-shadow: 0px 0px 5px 0px #888;
 }
 .paper::before {
@@ -71,7 +72,24 @@
 }
 
 .blog-text-resume {
-  padding: 0 10%;
+  padding: 0 6%;
   font-family: 'Indie Flower';
   font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 920px) {
+  .blog-text-resume {
+    padding: 0 10%;
+  }
+  .paper {
+    position: relative;
+    height: 88%;
+    width: 59%;
+    background: rgba(255, 255, 255, 0.9);
+    margin: -275px 0px;
+    left: 19%;
+    top: 40%;
+    box-shadow: 0px 0px 5px 0px #888;
+    padding: 0;
+  }
 }

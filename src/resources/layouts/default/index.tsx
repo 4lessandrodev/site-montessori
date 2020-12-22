@@ -6,6 +6,7 @@ import { Title } from '../../components/title';
 import { Paragraph } from '../../components/paragraph';
 import { Course } from '../../components/course';
 import { Paper } from '../../components/paper';
+import GridImages from '../../components/grid-images';
 
 export default () => (
   <>
@@ -44,14 +45,30 @@ export default () => (
       <section className='courses'>
         <Title title='Cursos Regulares'></Title>
         <article className='courses-grid'>
-          <Course name='BIologia' image=''></Course>
-          <Course name='BIologia' image=''></Course>
-          <Course name='BIologia' image=''></Course>
-          <Course name='BIologia' image=''></Course>
+          <Course
+            name='Educação Infantil'
+            image='https://i0.wp.com/www.ambersistemas.com.br/2016/wp-content/uploads/2017/09/dicas-para-captar-alunos-para-sua-escola-20170821133431.jpg-1024x683.jpg'
+          ></Course>
+          <Course
+            name='Fundamental I'
+            image='https://seduca.com.br/wp-content/uploads/2018/08/227570-producao-de-texto-como-incentivar-os-alunos-a-escrever-melhor.jpg'
+          ></Course>
+          <Course
+            name='Fundamental II'
+            image='https://blog.estantemagica.com.br/wp-content/uploads/2018/01/alunos-com-livros-na-mao-primeiro-dia-de-aula-1024x585.jpg'
+          ></Course>
+          <Course
+            name='Ensino Médio'
+            image='https://dhojeinterior.com.br/wp-content/uploads/2020/01/equipe-de-alunos-que-completa-a-tarefa_23-2147666610.jpg'
+          ></Course>
         </article>
       </section>
       <section className='blog'>
         <Paper />
+      </section>
+      <section className='grid-images'>
+        <Title title='Eventos'></Title>
+        <GridImages />
       </section>
       <footer className='footer'>Footer</footer>
     </main>

@@ -1,0 +1,10 @@
+.grid-img {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  transform: scale(1) blur(1px) grayscale(50%);
+}
+.grid-img:hover {
+  transform: rotate(3deg) scale(1.1);
+  filter: sepia(0.5);
+  z-index: 1;
+}
