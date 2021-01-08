@@ -70,7 +70,7 @@ export default () => (
         <Title title='Eventos'></Title>
         <GridImages />
       </section>
-      <footer className='footer'>Footer</footer>
+      <footer className='footer'>Em desenvolvimento</footer>
     </main>
   </>
 );
