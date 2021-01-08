@@ -1,5 +1,7 @@
 import Carousel, { autoplayPlugin } from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
+import image1 from './images/banner-1.png';
+import image2 from './images/banner-2.png';
 
 export default () => {
   return (
@@ -20,13 +22,13 @@ export default () => {
         <img
           key='imagem-1'
           style={{ width: '100%', height: '100%' }}
-          src='https://www.colegiocemp.com.br/wp-content/uploads/2019/06/DSC_0009.jpg'
+          src={image1}
           alt='image'
         />
         <img
           key='imagem-2'
           style={{ width: '100%', height: '100%' }}
-          src='http://luciliadiniz.com/wp-content/uploads/2015/02/A-hora-do-recreio-cabo-de-forca.jpg'
+          src={image2}
           alt='image'
         />
       </Carousel>

@@ -1,7 +1,7 @@
 .main-banner {
   display: flex;
   flex-direction: column;
-  padding: 5%;
+  padding: 0%;
   background-color: var(--main-blue);
   color: var(--main-light);
   justify-content: space-between;
@@ -9,6 +9,7 @@
 }
 
 .main-banner .button-call-to-action {
+  margin-top: 5%;;
   padding: 20px 30px;
   color: var(--main-blue);
   border-color: var(--main-orange);
@@ -28,6 +29,10 @@
   flex-direction: column;
   border: solid 5px var(--main-orange);
   margin: 15px;
+}
+
+.main-banner .button-call-to-action:hover {
+  color: var(--main-light);
 }
 
 @media only screen and (min-width: 920px) {
@@ -51,7 +56,4 @@
     font-weight: 400;
   }
 
-  .main-banner .button-call-to-action:hover {
-    color: var(--main-light);
-  }
 }

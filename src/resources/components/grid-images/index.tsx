@@ -17,6 +17,7 @@ const useStyles = makeStyles((theme: Theme) =>
       width: '90%',
       height: '400px',
       maxWidth: '100vw',
+      overflow:'hidden'
     },
   }),
 );
